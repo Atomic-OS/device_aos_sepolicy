@@ -3,6 +3,9 @@
 # inherit from Lineage
 #
 
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+    device/aos/sepolicy/common/public
+
 BOARD_SEPOLICY_DIRS += \
     device/aos/sepolicy/common/vendor
 
