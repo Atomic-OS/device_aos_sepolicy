@@ -7,5 +7,5 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/aos/sepolicy/qcom/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/aos/sepolicy/qcom \
+    device/aos/sepolicy/qcom/common \
     device/aos/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
